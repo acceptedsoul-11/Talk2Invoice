@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 390" role="img" aria-labelledby="title desc">
+  <title id="title">Talk2Invoice privacy-first architecture</title>
+  <desc id="desc">The browser stores business details and invoices locally. A job note is sent only on request to the configured Ollama open-weight model. The model returns a draft, then the browser checks the math and asks the person to review it.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#197967"/></marker>
+    <style>
+      .title{font:700 19px Arial,sans-serif;fill:#182735}.body{font:15px Arial,sans-serif;fill:#52616c}.small{font:13px Arial,sans-serif;fill:#63727e}.box{fill:#fff;stroke:#dbe4df;stroke-width:2}.green{fill:#f0f7f3;stroke:#bad9cb;stroke-width:2}.arrow{fill:none;stroke:#197967;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1118" height="388" rx="20" fill="#f6f7f4" stroke="#e3e8e5"/>
+  <text x="48" y="54" class="small" style="font-weight:700;letter-spacing:2px">THE JOB NOTE IS THE ONLY MODEL INPUT</text>
+  <rect class="box" x="48" y="91" width="230" height="213" rx="16"/>
+  <circle cx="81" cy="130" r="17" fill="#e1f0e8"/><text x="76" y="136" class="title">1</text>
+  <text x="109" y="136" class="title">Your browser</text>
+  <text x="70" y="177" class="body">Type or dictate a job note</text>
+  <text x="70" y="204" class="body">Review every suggested field</text>
+  <text x="70" y="231" class="body">Check totals on this device</text>
+  <text x="70" y="258" class="body">Save invoices in local storage</text>
+  <text x="70" y="286" class="small">No Talk2Invoice account</text>
+  <path class="arrow" d="M286 194h57"/>
+  <rect class="green" x="356" y="91" width="250" height="213" rx="16"/>
+  <circle cx="390" cy="130" r="17" fill="#dceee4"/><text x="385" y="136" class="title">2</text>
+  <text x="418" y="136" class="title">Open-weight model</text>
+  <text x="379" y="177" class="body">Ollama runs a model you choose</text>
+  <text x="379" y="204" class="body">A job note is sent only when</text>
+  <text x="379" y="226" class="body">you request an AI draft</text>
+  <text x="379" y="258" class="body">Returns a structured draft</text>
+  <text x="379" y="286" class="small">Default: Qwen2.5 1.5B</text>
+  <path class="arrow" d="M614 194h57"/>
+  <rect class="box" x="684" y="91" width="385" height="213" rx="16"/>
+  <circle cx="719" cy="130" r="17" fill="#e1f0e8"/><text x="714" y="136" class="title">3</text>
+  <text x="747" y="136" class="title">Review, calculate, save</text>
+  <text x="708" y="177" class="body">Code checks quantity × rate and tax</text>
+  <text x="708" y="204" class="body">Nothing is sent to your client</text>
+  <text x="708" y="231" class="body">Print or save a PDF when ready</text>
+  <text x="708" y="258" class="body">Export a CSV or backup JSON</text>
+  <text x="708" y="286" class="small">Your review is the final approval</text>
+  <path d="M48 340h1021" stroke="#dbe4df" stroke-width="2"/>
+  <text x="48" y="367" class="small">If you configure a remote Ollama service, that service receives the note. Dictation may use your browser’s speech service.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 780" role="img" aria-labelledby="title desc">
+  <title id="title">Talk2Invoice client invoice preview</title>
+  <desc id="desc">A readable invoice layout with bill-to details, work line items, and a clearly shown total.</desc>
+  <defs>
+    <style>
+      .txt{font-family:Arial,Helvetica,sans-serif;fill:#182735}.muted{font-family:Arial,Helvetica,sans-serif;fill:#63727e}.line{stroke:#e3e8e5;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1120" height="780" rx="22" fill="#f6f7f4"/>
+  <rect x="120" y="40" width="880" height="700" rx="15" fill="#fff" stroke="#e3e8e5" stroke-width="2"/>
+  <text x="175" y="111" class="txt" font-size="25" font-weight="700">Your business</text>
+  <text x="175" y="140" class="muted" font-size="16">Your phone · your email</text>
+  <text x="834" y="95" class="muted" font-size="13" font-weight="700" letter-spacing="2">INVOICE</text>
+  <text x="834" y="126" class="txt" font-size="22" font-weight="700">INV-2402</text>
+  <rect x="834" y="144" width="84" height="28" rx="14" fill="#f0f2f4"/>
+  <circle cx="849" cy="158" r="4" fill="#586774"/><text x="861" y="163" fill="#586774" font-family="Arial" font-size="12" font-weight="700">Draft</text>
+  <path d="M175 195h770" class="line"/>
+  <text x="175" y="233" class="muted" font-size="13" font-weight="700" letter-spacing="1.5">BILL TO</text>
+  <text x="175" y="265" class="txt" font-size="19" font-weight="700">Sam Rivera</text>
+  <text x="175" y="291" class="muted" font-size="15">sam@example.test</text>
+  <text x="580" y="233" class="muted" font-size="13" font-weight="700" letter-spacing="1.5">DATES</text>
+  <text x="580" y="265" class="txt" font-size="16" font-weight="700">Issued 17 October 2026</text>
+  <text x="580" y="291" class="muted" font-size="15">Due 31 October 2026</text>
+  <rect x="160" y="329" width="800" height="44" rx="5" fill="#fafbfa"/>
+  <text x="179" y="357" class="muted" font-size="13" font-weight="700">SERVICE OR ITEM</text>
+  <text x="692" y="357" class="muted" font-size="13" font-weight="700">QTY</text>
+  <text x="788" y="357" class="muted" font-size="13" font-weight="700">RATE</text>
+  <text x="886" y="357" class="muted" font-size="13" font-weight="700">AMOUNT</text>
+  <path d="M160 373h800M160 434h800M160 495h800" class="line"/>
+  <text x="179" y="410" class="txt" font-size="15">Kitchen tap replacement</text>
+  <text x="692" y="410" class="txt" font-size="15">1</text>
+  <text x="788" y="410" class="muted" font-size="15">$185.00</text>
+  <text x="886" y="410" class="txt" font-size="15" font-weight="700">$185.00</text>
+  <text x="179" y="471" class="txt" font-size="15">Call-out and travel</text>
+  <text x="692" y="471" class="txt" font-size="15">1</text>
+  <text x="788" y="471" class="muted" font-size="15">$35.00</text>
+  <text x="886" y="471" class="txt" font-size="15" font-weight="700">$35.00</text>
+  <text x="650" y="555" class="muted" font-size="16">Subtotal</text>
+  <text x="876" y="555" class="txt" font-size="16" font-weight="700">$220.00</text>
+  <text x="650" y="592" class="muted" font-size="16">Tax (0%)</text>
+  <text x="876" y="592" class="txt" font-size="16" font-weight="700">$0.00</text>
+  <path d="M640 612h305" class="line"/>
+  <text x="650" y="650" class="txt" font-size="19" font-weight="700">Total due</text>
+  <text x="876" y="650" class="txt" font-size="19" font-weight="700">$220.00</text>
+  <path d="M175 690h770" class="line"/>
+  <text x="175" y="718" class="muted" font-size="14">Thank you for choosing a local independent business.</text>
+</svg>

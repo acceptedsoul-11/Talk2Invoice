@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Talk2Invoice dashboard preview</title>
+  <desc id="desc">A clean invoice dashboard with clear status cards and a short recent invoice list.</desc>
+  <defs>
+    <style>
+      .txt{font-family:Arial,Helvetica,sans-serif;fill:#182735}.muted{font-family:Arial,Helvetica,sans-serif;fill:#63727e}.green{fill:#197967}.card{fill:#fff;stroke:#e3e8e5;stroke-width:1.4}.small{font-size:16px}.label{font-size:14px;font-weight:700;letter-spacing:1.5px}
+    </style>
+  </defs>
+  <rect width="1440" height="900" rx="22" fill="#f6f7f4"/>
+  <rect x="0" y="0" width="255" height="900" rx="22" fill="#fff"/>
+  <path d="M255 0v900" stroke="#e3e8e5"/>
+  <rect x="24" y="24" width="42" height="42" rx="13" fill="#197967"/>
+  <path d="M38 34h13a8 8 0 0 1 0 16h-6v8h-7V34Z" fill="#fff"/>
+  <text x="78" y="44" class="txt" font-size="19" font-weight="700">Talk2Invoice</text>
+  <text x="78" y="64" class="muted" font-size="14">Work made clearer</text>
+  <text x="28" y="126" class="muted label">WORKSPACE</text>
+  <rect x="18" y="145" width="218" height="52" rx="10" fill="#e8f4f0"/>
+  <text x="39" y="178" fill="#126454" font-family="Arial" font-size="17">⌂</text>
+  <text x="69" y="178" fill="#126454" font-family="Arial" font-size="16" font-weight="700">Overview</text>
+  <text x="39" y="233" class="muted" font-size="18">▤</text><text x="69" y="233" class="muted" font-size="16">Invoices</text>
+  <text x="39" y="283" class="muted" font-size="18">⚙</text><text x="69" y="283" class="muted" font-size="16">Business settings</text>
+  <rect x="18" y="722" width="218" height="119" rx="14" fill="#f5faf7" stroke="#dcebe5"/>
+  <circle cx="43" cy="752" r="14" fill="#d9eee5"/>
+  <text x="39" y="758" fill="#126454" font-family="Arial" font-size="17" font-weight="700">✓</text>
+  <text x="67" y="757" class="txt" font-size="15" font-weight="700">Your work stays yours</text>
+  <text x="34" y="784" class="muted" font-size="13">Invoices are saved in this browser.</text>
+  <text x="34" y="805" class="muted" font-size="13">The model runs through Ollama.</text>
+  <text x="34" y="828" fill="#126454" font-family="Arial" font-size="13" font-weight="700">Privacy details →</text>
+  <circle cx="45" cy="870" r="18" fill="#ecdfcd"/><text x="33" y="875" fill="#654c2f" font-family="Arial" font-size="12" font-weight="700">YB</text>
+  <text x="74" y="867" class="txt" font-size="14" font-weight="700">Your business</text>
+  <text x="74" y="886" class="muted" font-size="12">Personal workspace</text>
+  <text x="304" y="51" fill="#197967" font-family="Arial" font-size="13" font-weight="700" letter-spacing="2">YOUR WORKSPACE</text>
+  <text x="304" y="96" class="txt" font-size="36" font-weight="700">Good afternoon, whenever you're ready.</text>
+  <text x="304" y="129" class="muted" font-size="17">A clear view of the work you’ve done and the payments still to come.</text>
+  <rect x="1175" y="52" width="224" height="48" rx="9" fill="#197967"/>
+  <text x="1200" y="82" fill="#fff" font-family="Arial" font-size="16" font-weight="700">＋ Create invoice</text>
+  <rect x="304" y="165" width="1095" height="220" rx="17" fill="#f2f8f4" stroke="#dce7e2"/>
+  <text x="340" y="207" fill="#126454" font-family="Arial" font-size="13" font-weight="700" letter-spacing="1.5">LESS ADMIN, MORE GOOD WORK</text>
+  <text x="340" y="244" class="txt" font-size="24" font-weight="700">Turn a job note into a ready-to-review invoice.</text>
+  <text x="340" y="278" class="muted" font-size="16">Say what you did, check the details, and save a clean invoice</text>
+  <text x="340" y="301" class="muted" font-size="16">for your client. No complicated bookkeeping setup needed.</text>
+  <rect x="340" y="321" width="226" height="45" rx="9" fill="#197967"/>
+  <text x="362" y="349" fill="#fff" font-family="Arial" font-size="15" font-weight="700">Start a new invoice  →</text>
+  <text x="340" y="373" fill="#197967" font-family="Arial" font-size="13" font-weight="700">✓</text>
+  <text x="361" y="374" class="muted" font-size="13">Your drafts stay in this browser.</text>
+  <rect x="1041" y="190" width="250" height="165" rx="12" fill="#fff" stroke="#dbe5df" transform="rotate(4 1041 190)"/>
+  <rect x="1100" y="198" width="233" height="160" rx="12" fill="#fff" stroke="#dbe5df" transform="rotate(-4 1100 198)"/>
+  <rect x="1133" y="225" width="116" height="8" rx="4" fill="#c7d4cf"/>
+  <rect x="1133" y="244" width="71" height="6" rx="3" fill="#d8e1dc"/>
+  <rect x="1133" y="274" width="165" height="5" rx="2" fill="#e6ece8"/>
+  <rect x="1133" y="291" width="165" height="5" rx="2" fill="#e6ece8"/>
+  <rect x="1133" y="308" width="165" height="5" rx="2" fill="#e6ece8"/>
+  <circle cx="1289" cy="265" r="42" fill="#197967"/>
+  <path d="m1271 264 12 12 23-25" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="304" y="410" width="345" height="126" rx="13" class="card"/>
+  <rect x="670" y="410" width="345" height="126" rx="13" class="card"/>
+  <rect x="1036" y="410" width="363" height="126" rx="13" class="card"/>
+  <text x="328" y="443" class="muted small">Sent and awaiting</text>
+  <text x="328" y="488" class="txt" font-size="28" font-weight="700">1</text>
+  <text x="328" y="515" class="muted" font-size="14">$220.00</text>
+  <text x="694" y="443" class="muted small">Paid</text>
+  <text x="694" y="488" class="txt" font-size="28" font-weight="700">1</text>
+  <text x="694" y="515" class="muted" font-size="14">$240.00</text>
+  <text x="1060" y="443" class="muted small">Drafts to finish</text>
+  <text x="1060" y="488" class="txt" font-size="28" font-weight="700">1</text>
+  <text x="1060" y="515" class="muted" font-size="14">Ready for your review</text>
+  <rect x="304" y="560" width="1095" height="287" rx="13" class="card"/>
+  <text x="328" y="597" class="txt" font-size="19" font-weight="700">Recent invoices</text>
+  <text x="1221" y="597" fill="#126454" font-family="Arial" font-size="14" font-weight="700">View all invoices →</text>
+  <path d="M304 622h1095" stroke="#eef1ef"/>
+  <rect x="305" y="623" width="1093" height="40" fill="#fafbfa"/>
+  <text x="328" y="649" class="muted" font-size="12" font-weight="700">INVOICE</text>
+  <text x="643" y="649" class="muted" font-size="12" font-weight="700">CREATED</text>
+  <text x="817" y="649" class="muted" font-size="12" font-weight="700">DUE DATE</text>
+  <text x="1002" y="649" class="muted" font-size="12" font-weight="700">STATUS</text>
+  <text x="1251" y="649" class="muted" font-size="12" font-weight="700">AMOUNT</text>
+  <path d="M304 663h1095M304 726h1095M304 789h1095" stroke="#eef1ef"/>
+  <text x="328" y="691" class="txt" font-size="14" font-weight="700">INV-2401</text><text x="328" y="711" class="muted" font-size="13">Sam Rivera</text>
+  <text x="643" y="698" class="muted small">Oct 9, 2026</text><text x="817" y="698" class="muted small">Oct 31, 2026</text>
+  <rect x="1002" y="678" width="72" height="29" rx="14" fill="#fff4df"/><circle cx="1015" cy="692" r="4" fill="#93600d"/><text x="1025" y="697" fill="#93600d" font-family="Arial" font-size="12" font-weight="700">Sent</text>
+  <text x="1251" y="698" class="txt" font-size="14" font-weight="700">$220.00</text>
+  <text x="328" y="754" class="txt" font-size="14" font-weight="700">INV-2400</text><text x="328" y="774" class="muted" font-size="13">Green Path Studio</text>
+  <text x="643" y="761" class="muted small">Oct 2, 2026</text><text x="817" y="761" class="muted small">Oct 16, 2026</text>
+  <rect x="1002" y="741" width="72" height="29" rx="14" fill="#e8f4f0"/><circle cx="1015" cy="755" r="4" fill="#126454"/><text x="1025" y="760" fill="#126454" font-family="Arial" font-size="12" font-weight="700">Paid</text>
+  <text x="1251" y="761" class="txt" font-size="14" font-weight="700">$240.00</text>
+  <text x="328" y="817" class="txt" font-size="14" font-weight="700">INV-2399</text><text x="328" y="837" class="muted" font-size="13">Jordan Lee</text>
+  <text x="643" y="824" class="muted small">Sep 27, 2026</text><text x="817" y="824" class="muted small">Oct 11, 2026</text>
+  <rect x="1002" y="804" width="76" height="29" rx="14" fill="#f0f2f4"/><circle cx="1015" cy="818" r="4" fill="#586774"/><text x="1025" y="823" fill="#586774" font-family="Arial" font-size="12" font-weight="700">Draft</text>
+  <text x="1251" y="824" class="txt" font-size="14" font-weight="700">$190.00</text>
+</svg>
