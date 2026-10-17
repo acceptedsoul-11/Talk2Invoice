@@ -1,0 +1,15 @@
+{
+  "name": "talk2invoice",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Voice-first, local-first quote and invoice drafts for independent service workers.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-reporter=spec"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
