@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7f4">
+    <meta name="description" content="Create clear quotes and invoices from a voice note, with an open-weight model you control.">
+    <title>Talk2Invoice — a calmer way to get paid</title>
+    <link rel="icon" href="/images/mark.svg" type="image/svg+xml">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/js/app.js?v=3"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="/" aria-label="Talk2Invoice home" data-view="dashboard">
+          <img src="/images/mark.svg" alt="" width="38" height="38">
+          <span><strong>Talk2Invoice</strong><small>Work made clearer</small></span>
+        </a>
+        <p class="nav-heading">WORKSPACE</p>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <button class="nav-link is-active" data-view="dashboard" type="button">
+            <span class="nav-icon" aria-hidden="true">⌂</span><span>Overview</span>
+          </button>
+          <button class="nav-link" data-view="invoices" type="button">
+            <span class="nav-icon" aria-hidden="true">▤</span><span>Invoices</span>
+            <span class="nav-count" id="invoice-count">0</span>
+          </button>
+          <button class="nav-link" data-view="settings" type="button">
+            <span class="nav-icon" aria-hidden="true">⚙</span><span>Business settings</span>
+          </button>
+        </nav>
+        <div class="sidebar-spacer"></div>
+        <section class="sidebar-tip" aria-label="Privacy note">
+          <div class="tip-mark" aria-hidden="true">✓</div>
+          <strong>Your work stays yours</strong>
+          <p>Invoices are saved in this browser. The AI draft runs through the Ollama model you configure.</p>
+          <a href="#privacy" data-view="settings">Privacy details <span aria-hidden="true">→</span></a>
+        </section>
+        <div class="account-card">
+          <div class="avatar" aria-hidden="true">YB</div>
+          <div><strong>Your business</strong><small>Personal workspace</small></div>
+          <button class="more-button" type="button" data-view="settings" aria-label="Open business settings">···</button>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="mobile-header">
+          <a class="brand" href="/" aria-label="Talk2Invoice home" data-view="dashboard">
+            <img src="/images/mark.svg" alt="" width="34" height="34">
+            <span><strong>Talk2Invoice</strong></span>
+          </a>
+          <button class="icon-button mobile-menu" id="menu-button" type="button" aria-label="Open navigation">☰</button>
+        </header>
+        <div id="app" class="page-content" tabindex="-1"></div>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>

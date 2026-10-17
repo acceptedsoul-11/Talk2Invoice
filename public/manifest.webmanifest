@@ -1,0 +1,12 @@
+{
+  "name": "Talk2Invoice",
+  "short_name": "Talk2Invoice",
+  "description": "Voice-first quotes and invoices for independent service workers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f4",
+  "theme_color": "#f6f7f4",
+  "icons": [
+    { "src": "/images/mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
